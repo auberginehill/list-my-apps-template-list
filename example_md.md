@@ -140,7 +140,7 @@ Or, more realistically:
 ```ruby
 require 'github/markup'
 GitHub::Markup.render(file, File.read(file))
-
+```
 
 #### Ordered list
 
