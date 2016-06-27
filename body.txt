@@ -1,0 +1,29 @@
+        <li><strong>${displayname}</strong>
+            <ul>
+                <li>Comment: ${comment}</li>
+                <li>Data Directory: ${datadir}</li>
+                <li>First Installed: ${firstinstalled}</li>
+                <li>Last Updated: ${lastupdated}</li>
+                <li>Market ID: ${marketid}</li>
+                <li>Market Link: <br>
+                    market://details?id=${packagename}</li>
+                <li>Package Name: ${packagename}</li>
+                <li>Tags: ${tags}</li>
+                <li>Target SDK: ${targetsdk}</li>
+                <li>UID: ${uid}</li>
+                <li>Version: ${version}</li>
+                <li>Version Code: ${versioncode}</li>
+                <li>www: <br> 
+                    <a href="${source}">${source}</a></li>
+                <li>Google Store:<br>
+                    <a href="https://play.google.com/store/apps/details?id=${packagename}">https://play.google.com/store/apps/details?id=${packagename}</a></li>
+                <li>Search (Google): <br>
+                    <a href="https://www.google.com/search?q=${packagename}">https://www.google.com/search?q=${packagename}</a></li>
+                <li>DuckDuckGo: <br>
+                    <a href="https://duckduckgo.com/?q=${packagename}+%22${displayname}%22">https://duckduckgo.com/?q=${packagename}+"${displayname}"</a></li>
+            </ul>
+            <div class="right_pane"><a href="#bottom">↓ Bottom ↓</a>  |  <a href="#top">↑ Top ↑</a></div>
+            <div style="margin-top:4em; margin-bottom:9em">
+                <hr style="width:50%; text-align:left; margin-left:0">
+            </div>
+</li>
