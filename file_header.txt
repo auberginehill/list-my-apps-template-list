@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.7">
+    <meta name="Keywords" content="apps,applications,Android,HTML,Web development,tutorials,programming,training,learning,examples,source code,colors,demos,tips,template,templates">
+    <meta name="Description" content="A List of Installed Applications">
+    <title>The Enumeration Page of Installed Applications</title>
+
+    <style>
+        body {
+            font-family: Calibri, "Lucida Sans", Helvetica, sans-serif;
+        }
+        
+        li {
+            padding: 7px;
+        }
+        
+        table,
+        th,
+        td {
+            border: 0px solid black;
+            border-collapse: collapse;
+        }
+        
+        table.main th {
+            text-align: left;
+            color: black;
+            font-weight: bold;
+            padding: 14px;
+        }
+        
+        table.main td {
+            text-align: left;
+            color: black;
+            font-weight: normal;
+            padding: 14px;
+        }
+        
+        table.main tr:nth-child(even) {
+            background-color: white;
+        }
+        
+        table.main tr:nth-child(odd) {
+            background-color: #cccccc;
+        }
+        
+        table.stats th {
+            border: 0px solid black;
+            background-color: white;
+            color: black;
+            text-align: left;
+            width: 120px;
+            padding: 2px;
+        }
+        
+        table.stats td {
+            border: 0px solid black;
+            background-color: white;
+            color: black;
+            text-align: left;
+        }
+        
+        .right_pane_footer {
+            text-align: right;
+            font-size: 80%;
+        }
+
+         .right_pane {
+            text-align: right;
+            font-size: 80%;
+            margin-top: 6em;
+            margin-bottom: 4em;
+        }
+        
+        .filter-type {
+            border-bottom: 0px dotted #343434;
+        }
+        
+        .show_more {
+            width: 95%;
+            margin-bottom: 14px;
+            overflow-y: scroll;
+            border: none;
+            visibility: visible;
+        }
+        
+        #filter {
+            display: none
+        }
+        
+        #filter:checked + .show_more {
+            visibility: visible;
+        }
+    </style>
+</head>
+
+<!-- Start content -->
+
+<body>
+    <h1 id="top" style="font-family: Gill Sans, sans-serif;">Installed Apps</h1>
+    <table class="stats">
+        <tr>
+            <th>Generated:</th>
+            <td>${now}</td>
+        </tr>
+        <tr>
+            <th>Total:</th>
+            <td>${count} apps</td>
+        </tr>
+    </table>
+    <p class="right_pane_footer"><a href="#bottom">↓ Bottom ↓</a></p>
+    <p>To see the code in action, a real-time Online HTML Editor can be found at: <a href="http://htmledit.squarefree.com/">http://htmledit.squarefree.com/</a></p>
+<ol style="margin-top:6em; margin-bottom:4em">
