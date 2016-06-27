@@ -6,7 +6,7 @@
         <ol>
             <li>Create a new template in '<a href="https://play.google.com/store/apps/details?id=de.onyxbits.listmyapps">List My Apps</a>' -app's Template Editor by clicking Options (three dots) → Template Editor → Add. [<a href="http://groovyandroid.com/wp-content/uploads/2013/10/List-My-Apps-select-all.png">Screenshot</a>]</li>
             <li>Type in a name for the template. [<a href="http://groovyandroid.com/wp-content/uploads/2013/10/List-My-Apps-Template-Editor.png">Screenshot</a>]</li>
-            <li>Paste all the appropriate template data to 'List My Apps' and save the template. The most convenient template source is a separate file (such as <a href="http://pastebin.com/U4K39BRx">http://pastebin.com/U4K39BRx</a>), but a fairly working version of the template (without the template that would reside inside the template footer) can be found at the end of this file.
+            <li>Paste all the appropriate template data to 'List My Apps' and save the template. The most convenient template source is a separate file (such as <a href="https://github.com/auberginehill/list-my-apps-template-list">https://github.com/auberginehill/list-my-apps-template-list</a>), but a fairly working version of the template (without the template that would reside inside the template footer) can be found at the end of this file.
                 <ul>
                     <li>The template code below is in three parts as described below:
                            <table style="border:0; margin-left:3em; margin-top:2em; margin-bottom:2em; text-align:left">
@@ -57,23 +57,22 @@
      <div style="margin-left: 3em"><br>
         <h4>www</h4>
         <ul>
-            <li>Template: <a href="http://pastebin.com/U4K39BRx/">http://pastebin.com/U4K39BRx/</a></li>
+            <li>Template: <a href="https://github.com/auberginehill/list-my-apps-template-list/">https://github.com/auberginehill/list-my-apps-template-list/</a></li>
             <li><a href="https://play.google.com/store/apps/details?id=de.onyxbits.listmyapps">List My Apps</a> (Google Play)</li>
             <li><a href="http://www.onyxbits.de/listmyapps">List My Apps' homepage</a></li>
             <li><a href="http://forum.xda-developers.com/showthread.php?t=2460266">List My Apps' application thread</a> at xda-developers.com</li>
             <li><a href="https://play.google.com/store/apps/details?id=com.aor.droidedit">DroidEdit Free</a> (free code editor)</li>
             <li><a href="https://play.google.com/store/apps/details?id=jp.ne.shira.html.viewer">Local HTML Viewer</a></li>
             <li><a href="https://play.google.com/store/apps/details?id=org.mozilla.firefox">Firefox for Android</a></li>
-            <li><a href="https://play.google.com/store/apps/details?id=com.h3r3t1c.app.droidpaste">DroidPaste for Pastebin</a></li>
         </ul>
         <br>
         <h4>Related scripts</h4>
         <ul>
-            <li>List My Apps Template - Table: <a href="http://pastebin.com/ADaRiDYq">http://pastebin.com/ADaRiDYq</a></li>
-            <li>List My Apps Template - Pro: <a href="http://pastebin.com/kK646g16">http://pastebin.com/kK646g16</a></li>
-            <li>List My Apps Template - Data: <a href="http://pastebin.com/NfEeHHf0">http://pastebin.com/NfEeHHf0</a></li>
-            <li>List My Apps Template - XML plain: <a href="http://pastebin.com/YPFQnhPH">http://pastebin.com/YPFQnhPH</a></li>
-            <li>List My Apps Template - XML style: <a href="http://pastebin.com/qQDKwSG0">http://pastebin.com/qQDKwSG0</a></li>
+            <li>List My Apps Template - Table: <a href="https://github.com/auberginehill/list-my-apps-template-table">https://github.com/auberginehill/list-my-apps-template-table</a></li>
+            <li>List My Apps Template - Pro: <a href="https://github.com/auberginehill/list-my-apps-template-pro">https://github.com/auberginehill/list-my-apps-template-pro</a></li>
+            <li>List My Apps Template - Data: <a href="https://github.com/auberginehill/list-my-apps-template-data">https://github.com/auberginehill/list-my-apps-template-data</a></li>
+            <li>List My Apps Template - XML plain: <a href="https://github.com/auberginehill/list-my-apps-template-xml-plain">https://github.com/auberginehill/list-my-apps-template-xml-plain</a></li>
+            <li>List My Apps Template - XML style: <a href="https://github.com/auberginehill/list-my-apps-template-xml-style">https://github.com/auberginehill/list-my-apps-template-xml-style</a></li>
         </ul>
     </div>
     <br>
@@ -263,7 +262,7 @@
         &lt;ol&gt;
             &lt;li&gt;Create a new template in '&lt;a href=&quot;https://play.google.com/store/apps/details?id=de.onyxbits.listmyapps&quot;&gt;List My Apps&lt;/a&gt;' -app's Template Editor by clicking Options (three dots) &#x2192; Template Editor &#x2192; Add. [&lt;a href=&quot;http://groovyandroid.com/wp-content/uploads/2013/10/List-My-Apps-select-all.png&quot;&gt;Screenshot&lt;/a&gt;]&lt;/li&gt;
             &lt;li&gt;Type in a name for the template. [&lt;a href=&quot;http://groovyandroid.com/wp-content/uploads/2013/10/List-My-Apps-Template-Editor.png&quot;&gt;Screenshot&lt;/a&gt;]&lt;/li&gt;
-            &lt;li&gt;Paste all the appropriate template data to 'List My Apps' and save the template. The most convenient template source is a separate file (such as &lt;a href=&quot;http://pastebin.com/U4K39BRx&quot;&gt;http://pastebin.com/U4K39BRx&lt;/a&gt;), but a fairly working version of the template (without the template that would reside inside the template footer) can be found at the end of this file.
+            &lt;li&gt;Paste all the appropriate template data to 'List My Apps' and save the template. The most convenient template source is a separate file (such as &lt;a href=&quot;https://github.com/auberginehill/list-my-apps-template-list&quot;&gt;https://github.com/auberginehill/list-my-apps-template-list&lt;/a&gt;), but a fairly working version of the template (without the template that would reside inside the template footer) can be found at the end of this file.
                 &lt;ul&gt;
                     &lt;li&gt;The template code below is in three parts as described below:
                            &lt;table style=&quot;border:0; margin-left:3em; margin-top:2em; margin-bottom:2em; text-align:left&quot;&gt;
@@ -314,23 +313,22 @@
      &lt;div style=&quot;margin-left: 3em&quot;&gt;&lt;br&gt;
         &lt;h4&gt;www&lt;/h4&gt;
         &lt;ul&gt;
-            &lt;li&gt;Template: &lt;a href=&quot;http://pastebin.com/U4K39BRx/&quot;&gt;http://pastebin.com/U4K39BRx/&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;Template: &lt;a href=&quot;https://github.com/auberginehill/list-my-apps-template-list/&quot;&gt;https://github.com/auberginehill/list-my-apps-template-list/&lt;/a&gt;&lt;/li&gt;
             &lt;li&gt;&lt;a href=&quot;https://play.google.com/store/apps/details?id=de.onyxbits.listmyapps&quot;&gt;List My Apps&lt;/a&gt; (Google Play)&lt;/li&gt;
             &lt;li&gt;&lt;a href=&quot;http://www.onyxbits.de/listmyapps&quot;&gt;List My Apps' homepage&lt;/a&gt;&lt;/li&gt;
             &lt;li&gt;&lt;a href=&quot;http://forum.xda-developers.com/showthread.php?t=2460266&quot;&gt;List My Apps' application thread&lt;/a&gt; at xda-developers.com&lt;/li&gt;
             &lt;li&gt;&lt;a href=&quot;https://play.google.com/store/apps/details?id=com.aor.droidedit&quot;&gt;DroidEdit Free&lt;/a&gt; (free code editor)&lt;/li&gt;
             &lt;li&gt;&lt;a href=&quot;https://play.google.com/store/apps/details?id=jp.ne.shira.html.viewer&quot;&gt;Local HTML Viewer&lt;/a&gt;&lt;/li&gt;
             &lt;li&gt;&lt;a href=&quot;https://play.google.com/store/apps/details?id=org.mozilla.firefox&quot;&gt;Firefox for Android&lt;/a&gt;&lt;/li&gt;
-            &lt;li&gt;&lt;a href=&quot;https://play.google.com/store/apps/details?id=com.h3r3t1c.app.droidpaste&quot;&gt;DroidPaste for Pastebin&lt;/a&gt;&lt;/li&gt;
         &lt;/ul&gt;
         &lt;br&gt;
         &lt;h4&gt;Related scripts&lt;/h4&gt;
         &lt;ul&gt;
-            &lt;li&gt;List My Apps Template - Table: &lt;a href=&quot;http://pastebin.com/ADaRiDYq&quot;&gt;http://pastebin.com/ADaRiDYq&lt;/a&gt;&lt;/li&gt;
-            &lt;li&gt;List My Apps Template - Pro: &lt;a href=&quot;http://pastebin.com/kK646g16&quot;&gt;http://pastebin.com/kK646g16&lt;/a&gt;&lt;/li&gt;
-            &lt;li&gt;List My Apps Template - Data: &lt;a href=&quot;http://pastebin.com/NfEeHHf0&quot;&gt;http://pastebin.com/NfEeHHf0&lt;/a&gt;&lt;/li&gt;
-            &lt;li&gt;List My Apps Template - XML plain: &lt;a href=&quot;http://pastebin.com/YPFQnhPH&quot;&gt;http://pastebin.com/YPFQnhPH&lt;/a&gt;&lt;/li&gt;
-            &lt;li&gt;List My Apps Template - XML style: &lt;a href=&quot;http://pastebin.com/qQDKwSG0&quot;&gt;http://pastebin.com/qQDKwSG0&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;List My Apps Template - Table: &lt;a href=&quot;https://github.com/auberginehill/list-my-apps-template-table&quot;&gt;https://github.com/auberginehill/list-my-apps-template-table&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;List My Apps Template - Pro: &lt;a href=&quot;https://github.com/auberginehill/list-my-apps-template-pro&quot;&gt;https://github.com/auberginehill/list-my-apps-template-pro&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;List My Apps Template - Data: &lt;a href=&quot;https://github.com/auberginehill/list-my-apps-template-data&quot;&gt;https://github.com/auberginehill/list-my-apps-template-data&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;List My Apps Template - XML plain: &lt;a href=&quot;https://github.com/auberginehill/list-my-apps-template-xml-plain&quot;&gt;https://github.com/auberginehill/list-my-apps-template-xml-plain&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;List My Apps Template - XML style: &lt;a href=&quot;https://github.com/auberginehill/list-my-apps-template-xml-style&quot;&gt;https://github.com/auberginehill/list-my-apps-template-xml-style&lt;/a&gt;&lt;/li&gt;
         &lt;/ul&gt;
     &lt;/div&gt;
     &lt;br&gt;
