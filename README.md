@@ -27,8 +27,19 @@
    </tr>
    <tr>
         <td><strong>Sources:</strong></td>
-        <td>Emojis: <a href="https://api.github.com/emojis">https://api.github.com/emojis</a></td>
-   </tr>
+        <td>
+            <table>
+                <tr>
+                    <td>Emojis:</td>
+                    <td><a href="https://api.github.com/emojis">https://api.github.com/emojis</a></td>
+                </tr>
+                <tr>
+                    <td>ASCII Art:</td>
+                    <td>ASCII font big by Glenn Chappell: <a href="http://www.figlet.org/">http://www.figlet.org/</a> and <a href="http://www.network-science.de/ascii/">http://www.network-science.de/ascii/</a> </td>
+                </tr>
+            </table>
+        </td>
+   </tr> 
    <tr>
         <td><strong>Downloads:</strong></td>
         <td>For instance <a href="https://raw.githubusercontent.com/auberginehill/list-my-apps-template-list/master/all_in_one.txt">all_in_one.txt</a> or the same file in <a href="https://raw.githubusercontent.com/auberginehill/list-my-apps-template-list/master/file_header.txt">three</a> <a href="https://raw.githubusercontent.com/auberginehill/list-my-apps-template-list/master/body.txt">separate</a> <a href="https://raw.githubusercontent.com/auberginehill/list-my-apps-template-list/master/file_footer.txt">parts</a>. Or <a href="https://github.com/auberginehill/list-my-apps-template-list/archive/master.zip">everything as a .zip-file</a>.</td>
