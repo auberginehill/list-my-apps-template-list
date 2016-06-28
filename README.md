@@ -204,7 +204,7 @@
       <tr>
         <th>:bulb:</th>
         <th>Tip:</th>
-        <td>To see the code (<a href="https://github.com/auberginehill/list-my-apps-template-list/blob/master/all_in_one.txt">all_in_one.txt</a>) in action, a real-time Online HTML Editor can be found at: <a href="http://htmledit.squarefree.com/">http://htmledit.squarefree.com/</a></td>
+        <td>To see the code (<a href="https://raw.githubusercontent.com/auberginehill/list-my-apps-template-list/master/all_in_one.html">all_in_one.html</a>) in action, a real-time Online HTML Editor can be found at: <a href="http://htmledit.squarefree.com/">http://htmledit.squarefree.com/</a></td>
       </tr>
    </table>
 </ol>
