@@ -30,8 +30,8 @@
         <td>Emojis: <a href="https://api.github.com/emojis">https://api.github.com/emojis</a></td>
    </tr>
    <tr>
-        <td><strong>Download:</strong></td>
-        <td>For instance <a href="https://github.com/auberginehill/list-my-apps-template-list/blob/master/all_in_one.txt">all_in_one.txt</a> or the same file in <a href="https://github.com/auberginehill/list-my-apps-template-list/blob/master/file_header.txt">three</a> <a href="https://github.com/auberginehill/list-my-apps-template-list/blob/master/body.txt">separate</a> <a href="https://github.com/auberginehill/list-my-apps-template-list/blob/master/file_footer.txt">parts</a>.</td>
+        <td><strong>Downloads:</strong></td>
+        <td>For instance <a href="https://raw.githubusercontent.com/auberginehill/list-my-apps-template-list/master/all_in_one.txt">all_in_one.txt</a> or the same file in <a href="https://raw.githubusercontent.com/auberginehill/list-my-apps-template-list/master/file_header.txt">three</a> <a href="https://raw.githubusercontent.com/auberginehill/list-my-apps-template-list/master/body.txt">separate</a> <a href="https://raw.githubusercontent.com/auberginehill/list-my-apps-template-list/master/file_footer.txt">parts</a>.</td>
    </tr>
 </table>
 
@@ -47,7 +47,7 @@
 
 <table>
    <tr>
-        <th><img class="emoji" title="remarks" alt="remarks" height="28" width="28" align="absmiddle" src="https://assets-cdn.github.com/images/icons/emoji/unicode/26a0.png"></th>
+        <th>:warning:</th>
         <td>
             <ul>
                 <li>List My Apps custom templates consist of three fields ("List header", "Item format" and "List footer"). The template code in this project is divided into three parts, which correspond the fields found in List My Apps' Template Editor as described below:</li>
@@ -100,7 +100,7 @@
 
 <table>
    <tr>
-        <th><img class="emoji" title="tutorial" alt="tutorial" height="28" width="28" align="absmiddle" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4d6.png"></th>
+        <th>:book:</th>
         <td>To open this code with an Android device, for instance:</td>
    </tr>
    <tr>
@@ -191,7 +191,7 @@
 <ol>   
    <table>
       <tr>
-        <th><img class="emoji" title="bulb" alt="bulb" height="28" width="28" align="absmiddle" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4a1.png"></th>
+        <th>:bulb:</th>
         <th>Tip:</th>
         <td>To see the code (<a href="https://github.com/auberginehill/list-my-apps-template-list/blob/master/all_in_one.txt">all_in_one.txt</a>) in action, a real-time Online HTML Editor can be found at: <a href="http://htmledit.squarefree.com/">http://htmledit.squarefree.com/</a></td>
       </tr>
@@ -231,7 +231,7 @@
         <td><a href="https://github.com/auberginehill/list-my-apps-template-list">Template Homepage</a></td>
    </tr>
    <tr>
-        <td rowspan="8"></td>
+        <td rowspan="9"></td>
         <td><a href="https://play.google.com/store/apps/details?id=de.onyxbits.listmyapps">List My Apps</a> (Google Play)</td>
    </tr>
    <tr>
@@ -241,13 +241,16 @@
         <td><a href="http://forum.xda-developers.com/showthread.php?t=2460266">List My Apps' application thread</a> at xda-developers.com</td>
    </tr> 
    <tr>
-      <td><a href="https://play.google.com/store/apps/details?id=com.aor.droidedit">DroidEdit Free</a> (free code editor)</td>
+        <td><a href="https://play.google.com/store/apps/details?id=com.aor.droidedit">DroidEdit Free</a> (free code editor)</td>
    </tr>
    <tr>
         <td><a href="https://play.google.com/store/apps/details?id=jp.ne.shira.html.viewer">Local HTML Viewer</a></td>
    </tr>
    <tr>
         <td><a href="https://play.google.com/store/apps/details?id=org.mozilla.firefox">Firefox for Android</a></td>
+   </tr>
+   <tr>
+        <td><a href="https://play.google.com/store/apps/details?id=com.alorma.github">Gitskarios for Github</a></td>
    </tr>
    <tr>
       <td><a href="https://text-compare.com/#">Text Compare</a></td>
