@@ -1,48 +1,55 @@
+<!-- Visual Studio Code: For a more comfortable reading experience, use the key combination Ctrl + Shift + V
+
+  _      _     _   
+ | |    (_)   | |  
+ | |     _ ___| |_ 
+ | |    | / __| __|
+ | |____| \__ \ |_ 
+ |______|_|___/\__|                                                                                      -->
+
+
+
 ## List My Apps Template - List
 
 <table>
    <tr>
-        <td><strong>OS:</strong></td>
-        <td>Android</td>
+        <td style="padding:6px"><strong>OS:</strong></td>
+        <td style="padding:6px">Android</td>
    </tr>
    <tr>
-        <td><strong>Type:</strong></td>
-        <td>A template for an Android app called '<a href="https://play.google.com/store/apps/details?id=de.onyxbits.listmyapps">List My Apps</a>'</td>
+        <td style="padding:6px"><strong>Type:</strong></td>
+        <td style="padding:6px">A template for an Android app called '<a href="https://play.google.com/store/apps/details?id=de.onyxbits.listmyapps">List My Apps</a>'</td>
    </tr>
    <tr>
-        <td><strong>Language:</strong></td>
-        <td>mostly HTML (with extra variables)</td>
+        <td style="padding:6px"><strong>Language:</strong></td>
+        <td style="padding:6px">mostly HTML (with extra variables)</td>
    </tr>
    <tr>
-        <td><strong>Description:</th>
-        <td>This template (when run in an Android app called 'List My Apps') creates a HTML list (in list format) of the apps installed on the device.</td>
+        <td style="padding:6px"><strong>Description:</strong></td>
+        <td style="padding:6px">This template (when run in an Android app called 'List My Apps') creates a HTML list (in list format) of the apps installed on the device.</td>
    </tr>
    <tr>
-        <td><strong>Homepage:</strong></td>
-        <td><a href="https://github.com/auberginehill/list-my-apps-template-list">https://github.com/auberginehill/list-my-apps-template-list</a></td>
+        <td style="padding:6px"><strong>Homepage:</strong></td>
+        <td style="padding:6px"><a href="https://github.com/auberginehill/list-my-apps-template-list">https://github.com/auberginehill/list-my-apps-template-list</a></td>
    </tr>
    <tr>
-        <td><strong>Version:</strong></td>
-        <td>1.2</td>
+        <td style="padding:6px"><strong>Version:</strong></td>
+        <td style="padding:6px">1.2</td>
    </tr>
    <tr>
-        <td><strong>Sources:</strong></td>
-        <td>
+        <td style="padding:6px"><strong>Sources:</strong></td>
+        <td style="padding:6px">
             <table>
                 <tr>
-                    <td>Emojis:</td>
-                    <td><a href="https://api.github.com/emojis">https://api.github.com/emojis</a></td>
-                </tr>
-                <tr>
-                    <td>ASCII Art:</td>
-                    <td>ASCII font big by Glenn Chappell: <a href="http://www.figlet.org/">http://www.figlet.org/</a> and <a href="http://www.network-science.de/ascii/">http://www.network-science.de/ascii/</a> </td>
+                    <td style="padding:6px">Emojis:</td>
+                    <td style="padding:6px"><a href="https://api.github.com/emojis">https://api.github.com/emojis</a></td>
                 </tr>
             </table>
         </td>
    </tr> 
    <tr>
-        <td><strong>Downloads:</strong></td>
-        <td>For instance <a href="https://raw.githubusercontent.com/auberginehill/list-my-apps-template-list/master/all_in_one.txt">all_in_one.txt</a> or the same file in <a href="https://raw.githubusercontent.com/auberginehill/list-my-apps-template-list/master/file_header.txt">three</a> <a href="https://raw.githubusercontent.com/auberginehill/list-my-apps-template-list/master/body.txt">separate</a> <a href="https://raw.githubusercontent.com/auberginehill/list-my-apps-template-list/master/file_footer.txt">parts</a>. Or <a href="https://github.com/auberginehill/list-my-apps-template-list/archive/master.zip">everything as a .zip-file</a>.</td>
+        <td style="padding:6px"><strong>Downloads:</strong></td>
+        <td style="padding:6px">For instance <a href="https://raw.githubusercontent.com/auberginehill/list-my-apps-template-list/master/all_in_one.txt">all_in_one.txt</a> or the same file in <a href="https://raw.githubusercontent.com/auberginehill/list-my-apps-template-list/master/file_header.txt">three</a> <a href="https://raw.githubusercontent.com/auberginehill/list-my-apps-template-list/master/body.txt">separate</a> <a href="https://raw.githubusercontent.com/auberginehill/list-my-apps-template-list/master/file_footer.txt">parts</a>. Or <a href="https://github.com/auberginehill/list-my-apps-template-list/archive/master.zip">everything as a .zip-file</a>.</td>
    </tr>
 </table>
 
@@ -50,59 +57,67 @@
 
 #### Screenshot
 
-<img class="screenshot" title="screenshot" alt="screenshot" height="70%" width="70%" align="absmiddle" src="https://github.com/auberginehill/list-my-apps-template-list/blob/master/example_2.png">
+<img class="screenshot" title="screenshot" alt="screenshot" height="70%" width="70%" src="https://raw.githubusercontent.com/auberginehill/list-my-apps-template-list/master/example_2.png">
 
 
 
 #### Remarks
 
 <table>
-   <tr>
+    <tr>
         <th>:warning:</th>
-        <td>
+        <td style="padding:6px">
             <ul>
                 <li>List My Apps custom templates consist of three fields ("List header", "Item format" and "List footer"). The template code in this project is divided into three parts, which correspond the fields found in List My Apps' Template Editor as described below:</li>
             </ul>
         </td>
-   </tr>
-   <tr>
-        <td></td>
-        <td>
+    </tr>
+    <tr>
+        <th></th>
+        <td style="padding:6px">
             <ul>
-                <ul>
-                    <table>
-                        <tr>
-                            <td><strong>Filename</strong></td>
-                            <td><strong>Field in List My Apps' Template Editor</strong></td>
-                        </tr>
-                        <tr>
-                            <td><a href="https://github.com/auberginehill/list-my-apps-template-list/blob/master/file_header.txt">file_header.txt</a></td>
-                            <td>"List header, may be blank"</td>
-                        </tr>
-                        <tr>
-                            <td><a href="https://github.com/auberginehill/list-my-apps-template-list/blob/master/body.txt">body.txt</a></td>
-                            <td>"Item format, may not be blank"</td>
-                        </tr>
-                        <tr>
-                            <td><a href="https://github.com/auberginehill/list-my-apps-template-list/blob/master/file_footer.txt">file_footer.txt</a></td>
-                            <td>"List footer, may be blank"</td>
-                        </tr>
-                        <tr>
-                            <td><a href="https://github.com/auberginehill/list-my-apps-template-list/blob/master/all_in_one.txt">all_in_one.txt</a></td>
-                            <td>Contains all the above mentioned three parts in one file.</td>
-                        </tr>
-                    </table>
-                </ul>
-                <li>After a HTML-file has been created, the template included in the bottom of that file is limited. If that limited template of the created HTML-file is to be used as a template in 'List My Apps' -app:<br><br>
-                    <ul>
-                        <li>All instances of [dollar_sign] need to be changed with $</li>
-                        <li>File Footer ends before [End Of Line].</li>
-                    </ul>
-                    <br></li>
-                <li>However, if the template code has been copied from this project [dollar_sign] strings should be left as they are.</li>
+                <ol>
+                    <p>
+                        <table>
+                            <tr>
+                                <td style="padding:6px"><strong>Filename</strong></td>
+                                <td style="padding:6px"><strong>Field in List My Apps' Template Editor</strong></td>
+                            </tr>
+                            <tr>
+                                <td style="padding:6px"><a href="https://github.com/auberginehill/list-my-apps-template-list/blob/master/file_header.txt">file_header.txt</a></td>
+                                <td style="padding:6px">"List header, may be blank"</td>
+                            </tr>
+                            <tr>
+                                <td style="padding:6px"><a href="https://github.com/auberginehill/list-my-apps-template-list/blob/master/body.txt">body.txt</a></td>
+                                <td style="padding:6px">"Item format, may not be blank"</td>
+                            </tr>
+                            <tr>
+                                <td style="padding:6px"><a href="https://github.com/auberginehill/list-my-apps-template-list/blob/master/file_footer.txt">file_footer.txt</a></td>
+                                <td style="padding:6px">"List footer, may be blank"</td>
+                            </tr>
+                            <tr>
+                                <td style="padding:6px"><a href="https://github.com/auberginehill/list-my-apps-template-list/blob/master/all_in_one.txt">all_in_one.txt</a></td>
+                                <td style="padding:6px">Contains all the above mentioned three parts in one file.</td>
+                            </tr>
+                        </table>
+                    </p>
+                </ol>
+                <p>
+                    <li>After a HTML-file has been created, the template included in the bottom of that file is limited. If that limited template of the created HTML-file is to be used as a template in 'List My Apps' -app:
+                        <ul>
+                            <p>
+                                <li>All instances of [dollar_sign] need to be changed with $</li>
+                                <li>File Footer ends before [End Of Line].</li>
+                            </p>
+                        </ul>
+                    </li>
+                </p>
+                <p>
+                    <li>However, if the template code has been copied from this project [dollar_sign] strings should be left as they are.</li>
+                </p>
             </ul>
         </td>
-   </tr>
+    </tr>
 </table>
 
 
@@ -112,11 +127,11 @@
 <table>
    <tr>
         <th>:book:</th>
-        <td>To open this code with an Android device, for instance:</td>
+        <td style="padding:6px">To open this code with an Android device, for instance:</td>
    </tr>
    <tr>
-        <td></td>
-        <td>
+        <th></th>
+        <td style="padding:6px">
             <ol>
                 <p>
                     <li>Create a new template in '<a href="https://play.google.com/store/apps/details?id=de.onyxbits.listmyapps">List My Apps</a>' -app's Template Editor by clicking Options (three dots) → Template Editor → Add. [<a href="http://groovyandroid.com/wp-content/uploads/2013/10/List-My-Apps-select-all.png">Screenshot</a>]</li>
@@ -124,40 +139,42 @@
                 <p>
                     <li>Type in a name for the template.<br><br>
                        <ol>
-                          <img class="screenshot" title="screenshot" alt="screenshot" height="70%" width="70%" align="absmiddle" src="https://raw.githubusercontent.com/auberginehill/list-my-apps-template-table/master/list_my_apps_-_template_editor.png">
+                          <img class="screenshot" title="screenshot" alt="screenshot" height="70%" width="70%" src="https://raw.githubusercontent.com/auberginehill/list-my-apps-template-table/master/list_my_apps_-_template_editor.png">
                        </ol>
                     </li>
                 </p>
                 <p>
                     <li>Paste all the appropriate template data (the three sections as specified below) to 'List My Apps' and save the template.<br><br>
-                        <ol>
+                    <ul>
+                        <p>
                             <table>
                                 <tr>
-                                    <td><strong>Filename</strong></td>
-                                    <td><strong>Field in List My Apps' Template Editor</strong></td>
+                                    <td style="padding:6px"><strong>Filename</strong></td>
+                                    <td style="padding:6px"><strong>Field in List My Apps' Template Editor</strong></td>
                                 </tr>
                                 <tr>
-                                    <td><a href="https://github.com/auberginehill/list-my-apps-template-list/blob/master/file_header.txt">file_header.txt</a></td>
-                                    <td>"List header, may be blank"</td>
+                                    <td style="padding:6px"><a href="https://github.com/auberginehill/list-my-apps-template-list/blob/master/file_header.txt">file_header.txt</a></td>
+                                    <td style="padding:6px">"List header, may be blank"</td>
                                 </tr>
                                 <tr>
-                                    <td><a href="https://github.com/auberginehill/list-my-apps-template-list/blob/master/body.txt">body.txt</a></td>
-                                    <td>"Item format, may not be blank"</td>
+                                    <td style="padding:6px"><a href="https://github.com/auberginehill/list-my-apps-template-list/blob/master/body.txt">body.txt</a></td>
+                                    <td style="padding:6px">"Item format, may not be blank"</td>
                                 </tr>
                                 <tr>
-                                    <td><a href="https://github.com/auberginehill/list-my-apps-template-list/blob/master/file_footer.txt">file_footer.txt</a></td>
-                                    <td>"List footer, may be blank"</td>
+                                    <td style="padding:6px"><a href="https://github.com/auberginehill/list-my-apps-template-list/blob/master/file_footer.txt">file_footer.txt</a></td>
+                                    <td style="padding:6px">"List footer, may be blank"</td>
                                 </tr>
                                 <tr>
-                                    <td><a href="https://github.com/auberginehill/list-my-apps-template-list/blob/master/all_in_one.txt">all_in_one.txt</a></td>
-                                    <td>Contains all the above mentioned three parts in one file.</td>
+                                    <td style="padding:6px"><a href="https://github.com/auberginehill/list-my-apps-template-list/blob/master/all_in_one.txt">all_in_one.txt</a></td>
+                                    <td style="padding:6px">Contains all the above mentioned three parts in one file.</td>
                                 </tr>
                             </table>
-                        </ol>
+                        </p>
+                    </ul>
                     </li>
                 </p>
                 <p>
-                    <li>Go back to the 'List My Apps' -app's home screen and select the name that was created in Step 2 from the 'Copy/Share as:' -dropdown menu. Please also select the apps that you'd like to be included in the list. [<a href="http://groovyandroid.com/wp-content/uploads/2013/10/List-My-App-HTML-list.png">Screenshot</a>]</li>
+                    <li>After saving the template go back to the 'List My Apps' -app's home screen and select the name that was created in Step 2 from the 'Copy/Share as:' -dropdown menu. Please also select the apps that you'd like to be included in the list. [<a href="http://groovyandroid.com/wp-content/uploads/2013/10/List-My-App-HTML-list.png">Screenshot</a>]</li>
                 </p>
                 <p>
                     <li>'Run' the 'List My Apps' -app with the new template by copying the app data to Clipboard [Copy] (since direct sharing may not work, if a lot of applications has been installed).
@@ -173,11 +190,10 @@
                     <li>Paste the app data (source code generated by 'List My Apps' in Step 5) from Clipboard to the HTML editor.
                         <ul>
                             <li>If nothing happens (no data is pasted to a HTML editor after a few seconds), try selecting fewer apps in 'List My Apps' and go back to Step 5.</li>
-                            <ul>
-                                <li>Depending on the device some lagging may occur when trying to paste, say ~10000 lines of code.</li>
-                            </ul>
-                            <li>If "old data" gets pasted to a HTML editor (i.e. "the data that was in the Clipboard before List My Apps' 'Copy to Clipboard' -button was clicked"), try selecting fewer apps in 'List My Apps' and go back to Step 5.
-                            </li>
+                                <ul>
+                                    <li>Depending on the device some lagging may occur when trying to paste, say ~10000 lines of code.</li>
+                                </ul>
+                            <li>If "old data" gets pasted to a HTML editor (i.e. "the data that was in the Clipboard before List My Apps' 'Copy to Clipboard' -button was clicked"), try selecting fewer apps in 'List My Apps' and go back to Step 5.</li>
                         </ul>
                         </li>
                 </p>
@@ -204,7 +220,7 @@
       <tr>
         <th>:bulb:</th>
         <th>Tip:</th>
-        <td>To see the code (<a href="https://raw.githubusercontent.com/auberginehill/list-my-apps-template-list/master/all_in_one.html">all_in_one.html</a>) in action, a real-time Online HTML Editor can be found at: <a href="http://htmledit.squarefree.com/">http://htmledit.squarefree.com/</a></td>
+        <td style="padding:6px">To see the code (<a href="https://raw.githubusercontent.com/auberginehill/list-my-apps-template-list/master/all_in_one.html">all_in_one.html</a>) in action, a real-time Online HTML Editor can be found at: <a href="http://htmledit.squarefree.com/">http://htmledit.squarefree.com/</a></td>
       </tr>
    </table>
 </ol>
@@ -218,17 +234,17 @@
  <table>
    <tr>
       <th><img class="emoji" title="contributing" alt="contributing" height="28" width="28" align="absmiddle" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f33f.png"></th>
-      <td><strong>Bugs:</strong></td>
-      <td><a href="https://github.com/auberginehill/list-my-apps-template-list/issues">Submit bugs</a> and help us verify fixes.</td>
+      <td style="padding:6px"><strong>Bugs:</strong></td>
+      <td style="padding:6px"><a href="https://github.com/auberginehill/list-my-apps-template-list/issues">Submit bugs</a> and help us verify fixes.</td>
    </tr> 
    <tr>
-      <td rowspan="2"></td>
-      <td><strong>Feature Requests:</strong></td>
-      <td>Feature request can be submitted by <a href="https://github.com/auberginehill/list-my-apps-template-list/issues">creating an Issue</a>.</td>
+      <th rowspan="2"></th>
+      <td style="padding:6px"><strong>Feature Requests:</strong></td>
+      <td style="padding:6px">Feature request can be submitted by <a href="https://github.com/auberginehill/list-my-apps-template-list/issues">creating an Issue</a>.</td>
    </tr> 
    <tr>
-      <td><strong>Edit Source Files:</strong></td>
-      <td><a href="https://github.com/auberginehill/list-my-apps-template-list/pulls">Submit pull requests</a> for bug fixes and features and discuss existing proposals.</td>
+      <td style="padding:6px"><strong>Edit Source Files:</strong></td>
+      <td style="padding:6px"><a href="https://github.com/auberginehill/list-my-apps-template-list/pulls">Submit pull requests</a> for bug fixes and features and discuss existing proposals.</td>
    </tr>
  </table>   
 
@@ -237,38 +253,47 @@
 #### www
 
 <table>
-   <tr>
+    <tr>
         <th><img class="emoji" title="www" alt="www" height="28" width="28" align="absmiddle" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f310.png"></th>
-        <td><a href="https://github.com/auberginehill/list-my-apps-template-list">Template Homepage</a></td>
-   </tr>
-   <tr>
-        <td rowspan="9"></td>
-        <td><a href="https://play.google.com/store/apps/details?id=de.onyxbits.listmyapps">List My Apps</a> (Google Play)</td>
-   </tr>
-   <tr>
-        <td><a href="http://www.onyxbits.de/listmyapps">List My Apps' homepage</a></td>
-   </tr>
-   <tr>
-        <td><a href="http://forum.xda-developers.com/showthread.php?t=2460266">List My Apps' application thread</a> at xda-developers.com</td>
-   </tr> 
-   <tr>
-        <td><a href="https://play.google.com/store/apps/details?id=com.aor.droidedit">DroidEdit Free</a> (free code editor)</td>
-   </tr>
-   <tr>
-        <td><a href="https://play.google.com/store/apps/details?id=jp.ne.shira.html.viewer">Local HTML Viewer</a></td>
-   </tr>
-   <tr>
-        <td><a href="https://play.google.com/store/apps/details?id=org.mozilla.firefox">Firefox for Android</a></td>
-   </tr>
-   <tr>
-        <td><a href="https://play.google.com/store/apps/details?id=com.alorma.github">Gitskarios for Github</a></td>
-   </tr>
-   <tr>
-      <td><a href="https://text-compare.com/#">Text Compare</a></td>
-   </tr>
-   <tr>
-      <td><a href="http://htmlescape.net/htmlescape_tool.html">Escape HTML Entities</a></td>
-   </tr>
+        <td style="padding:6px"><a href="https://github.com/auberginehill/list-my-apps-template-list">Template Homepage</a></td>
+    </tr>
+    <tr>
+        <th rowspan="12"></th>
+        <td style="padding:6px"><a href="https://play.google.com/store/apps/details?id=de.onyxbits.listmyapps">List My Apps</a> (Google Play)</td>
+    </tr>
+    <tr>
+        <td style="padding:6px"><a href="http://www.onyxbits.de/listmyapps">List My Apps' homepage</a></td>
+    </tr>
+    <tr>
+        <td style="padding:6px"><a href="http://forum.xda-developers.com/showthread.php?t=2460266">List My Apps' application thread</a> at xda-developers.com</td>
+    </tr>
+    <tr>
+        <td style="padding:6px"><a href="https://play.google.com/store/apps/details?id=com.aor.droidedit">DroidEdit Free</a> (free code editor)</td>
+    </tr>
+    <tr>
+        <td style="padding:6px"><a href="https://play.google.com/store/apps/details?id=jp.ne.shira.html.viewer">Local HTML Viewer</a></td>
+    </tr>
+    <tr>
+        <td style="padding:6px"><a href="https://play.google.com/store/apps/details?id=org.mozilla.firefox">Firefox for Android</a></td>
+    </tr>
+    <tr>
+        <td style="padding:6px"><a href="https://play.google.com/store/apps/details?id=com.alorma.github">Gitskarios for Github</a></td>
+    </tr>
+    <tr>
+        <td style="padding:6px"><a href="http://tmpvar.com/markdown.html">Github Markdown Previewer</a></td>
+    </tr>
+    <tr>
+        <td style="padding:6px"><a href="http://htmlhint.com/">HTMLHint</a></td>
+    </tr>
+    <tr>
+        <td style="padding:6px"><a href="https://text-compare.com/#">Text Compare</a></td>
+    </tr>
+    <tr>
+        <td style="padding:6px"><a href="http://htmlescape.net/htmlescape_tool.html">Escape HTML Entities</a></td>
+    </tr>
+    <tr>
+        <td style="padding:6px">ASCII Art: <a href="http://www.figlet.org/">http://www.figlet.org/</a> and <a href="http://www.network-science.de/ascii/">ASCII Art Text Generator</a></td>
+    </tr>
 </table>
 
 
@@ -278,22 +303,22 @@
  <table>
    <tr>
         <th><img class="emoji" title="www" alt="www" height="28" width="28" align="absmiddle" src="https://assets-cdn.github.com/images/icons/emoji/unicode/0023-20e3.png"></th>
-        <td><a href="https://github.com/auberginehill/list-my-apps-template-table">List My Apps Template - Table</a></td>
+        <td style="padding:6px"><a href="https://github.com/auberginehill/list-my-apps-template-table">List My Apps Template - Table</a></td>
    </tr>
    <tr>
-        <td rowspan="5"></td>
-        <td><a href="https://github.com/auberginehill/list-my-apps-template-pro">List My Apps Template - Pro</a></td>
+        <th rowspan="5"></th>
+        <td style="padding:6px"><a href="https://github.com/auberginehill/list-my-apps-template-pro">List My Apps Template - Pro</a></td>
    </tr>
    <tr>
-        <td><a href="https://github.com/auberginehill/list-my-apps-template-data">List My Apps Template - Data</a></td>
+        <td style="padding:6px"><a href="https://github.com/auberginehill/list-my-apps-template-data">List My Apps Template - Data</a></td>
    </tr>
    <tr>
-        <td><a href="https://github.com/auberginehill/list-my-apps-template-xml-plain">List My Apps Template - XML plain</a></td>
+        <td style="padding:6px"><a href="https://github.com/auberginehill/list-my-apps-template-xml-plain">List My Apps Template - XML plain</a></td>
    </tr>
    <tr>
-        <td><a href="https://github.com/auberginehill/list-my-apps-template-xml-style">List My Apps Template - XML style</a></td>
+        <td style="padding:6px"><a href="https://github.com/auberginehill/list-my-apps-template-xml-style">List My Apps Template - XML style</a></td>
    </tr>
    <tr>
-        <td><a href="https://github.com/auberginehill/list-my-apps-template-json">List My Apps Template - JSON</a></td>
+        <td style="padding:6px"><a href="https://github.com/auberginehill/list-my-apps-template-json">List My Apps Template - JSON</a></td>
    </tr>
-</table>  
+</table>
