@@ -14,10 +14,10 @@
 <html>
 
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=0.7">
-    <meta name="Keywords" content="apps,applications,Android,HTML,Web development,tutorials,programming,training,learning,examples,source code,colors,demos,tips,template,templates">
-    <meta name="Description" content="A List of Installed Applications">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=0.7" />
+    <meta name="Keywords" content="apps,applications,Android,HTML,Web development,tutorials,programming,training,learning,examples,source code,colors,demos,tips,template,templates" />
+    <meta name="Description" content="A List of Installed Applications" />
     <title>The Enumeration Page of Installed Applications</title>
 
     <style>
@@ -158,26 +158,28 @@
                 <li>First Installed: ${firstinstalled}</li>
                 <li>Last Updated: ${lastupdated}</li>
                 <li>Market ID: ${marketid}</li>
-                <li>Market Link: <br>
-                    market://details?id=${packagename}</li>
+                <li>Market Link: <br />
+                    <a href="market://details?id=${packagename}">market://details?id=${packagename}</a></li>
                 <li>Package Name: ${packagename}</li>
                 <li>Tags: ${tags}</li>
                 <li>Target SDK: ${targetsdk}</li>
                 <li>UID: ${uid}</li>
                 <li>Version: ${version}</li>
                 <li>Version Code: ${versioncode}</li>
-                <li>www: <br> 
+                <li>www: <br /> 
                     <a href="${source}">${source}</a></li>
-                <li>Google Store:<br>
+                <li>Google Store:<br />
                     <a href="https://play.google.com/store/apps/details?id=${packagename}">https://play.google.com/store/apps/details?id=${packagename}</a></li>
-                <li>Search (Google): <br>
+                <li>F-Droid:<br />
+                    <a href="https://f-droid.org/repository/browse/?fdid=${packagename}">https://f-droid.org/repository/browse/?fdid=${packagename}</a></li>
+                <li>Search (Google): <br />
                     <a href="https://www.google.com/search?q=${packagename}">https://www.google.com/search?q=${packagename}</a></li>
-                <li>DuckDuckGo: <br>
+                <li>DuckDuckGo: <br />
                     <a href="https://duckduckgo.com/?q=${packagename}+%22${displayname}%22">https://duckduckgo.com/?q=${packagename}+"${displayname}"</a></li>
             </ul>
             <div class="right_pane"><a href="#bottom">↓ Bottom ↓</a>  |  <a href="#top">↑ Top ↑</a></div>
             <div style="margin-top:4em; margin-bottom:9em">
-                <hr style="width:50%; text-align:left; margin-left:0">
+                <hr style="width:50%; text-align:left; margin-left:0" />
             </div>
         </li>
  
@@ -207,60 +209,90 @@
     </ol>
     <div style="margin-left:1em">
         <h3>'List My Apps' -Template (List)</h3>
-        <br>
+        <br />
         <p>To open this code with an Android device, for instance:</p>
         <ol>
-            <li>Create a new template in '<a href="https://play.google.com/store/apps/details?id=de.onyxbits.listmyapps">List My Apps</a>' -app's Template Editor by clicking Options (three dots) → Template Editor → Add. [<a href="http://groovyandroid.com/wp-content/uploads/2013/10/List-My-Apps-select-all.png">Screenshot</a>]</li>
-            <li>Type in a name for the template. [<a href="http://groovyandroid.com/wp-content/uploads/2013/10/List-My-Apps-Template-Editor.png">Screenshot</a>]</li>
-            <li>Paste all the appropriate template data to 'List My Apps' and save the template. The most convenient template source is a separate file (such as <a href="https://github.com/auberginehill/list-my-apps-template-list">https://github.com/auberginehill/list-my-apps-template-list</a>), but a fairly working version of the template (without the template that would reside inside the template footer) can be found at the end of this file.
-                <ul>
-                    <li>The template code below is in three parts as described below:
-                           <table style="border:0; margin-left:3em; margin-top:2em; margin-bottom:2em; text-align:left">
-                               <tr>
-                                   <th style="padding:12px">Template File Header:</th>
-                                   <td style="padding:12px">"List header, may be blank"</td>
-                                </tr>
-                                <tr>
-                                    <th style="padding:12px">Template Body:</th>
-                                    <td style="padding:12px">"Item format, may not be blank"</td>
-                                </tr>
-                                <tr> 
-                                    <th style="padding:12px">Template File Footer:</th>
-                                    <td style="padding:12px">"List footer, may be blank"</td>
-                                </tr>
-                            </table>
+                <p>
+                    <li>Create a new template in '<a href="https://play.google.com/store/apps/details?id=de.onyxbits.listmyapps">List My Apps</a>' -app's Template Editor by clicking Options (three dots) → Template Editor → Add. [<a href="http://groovyandroid.com/wp-content/uploads/2013/10/List-My-Apps-select-all.png">Screenshot</a>]</li>
+                </p>
+                <p>
+                    <li>Type in a name for the template. [<a href="http://groovyandroid.com/wp-content/uploads/2013/10/List-My-Apps-Template-Editor.png">Screenshot</a>]</li>
+                </p>
+                <p>
+                    <li>Paste all the appropriate template data to 'List My Apps' and save the template. The most convenient template source is a separate file (such as <a href="https://github.com/auberginehill/list-my-apps-template-list">https://github.com/auberginehill/list-my-apps-template-list</a>),
+                        but a fairly working version of the template (without the template that would reside inside the template footer) can be found at the end of this file.
+                        <ul>
+                            <p>
+                                <li>The template code below is in three parts as described below:
+                                    <table style="border:0; margin-left:3em; margin-top:2em; margin-bottom:2em; text-align:left">
+                                        <tr>
+                                            <th style="padding:12px">Template File Header:</th>
+                                            <td style="padding:12px">"List header, may be blank"</td>
+                                        </tr>
+                                        <tr>
+                                            <th style="padding:12px">Template Body:</th>
+                                            <td style="padding:12px">"Item format, may not be blank"</td>
+                                        </tr>
+                                        <tr>
+                                            <th style="padding:12px">Template File Footer:</th>
+                                            <td style="padding:12px">"List footer, may be blank"</td>
+                                        </tr>
+                                    </table>
+                                </li>
+                            </p>
+                            <p>
+                                <li>The footer section (under the header 'Template File Footer:') includes only a truncated version of the real footer section, which was used to create the underlying HTML-page.</li>
+                            </p>
+                            <p>
+                                <li>In the header and footer sections of the template (under 'Template File Header:' and 'Template File Footer:' -headers below) every instance of [dollar_sign] has to be replaced with a single $ character (to repair the timestamp and count
+                                    -variables to their correct form).</li>
+                            </p>
+                        </ul>
                     </li>
-                    <li>The footer section (under the header 'Template File Footer:') includes only a truncated version of the real footer section, which was used to create the underlying HTML-page.</li>
-                    <li>In the header and footer sections of the template (under 'Template File Header:' and 'Template File Footer:' -headers below) every instance of [dollar_sign] has to be replaced with a single $ character (to repair the timestamp and count -variables to their correct form).</li>
-                </ul>
-            </li>
-            <li>Go back to the 'List My Apps' -app's home screen and select the name that was created in Step 2 from the 'Copy/Share as:' -dropdown menu. Please also select the apps that you'd like to be included in the list. [<a href="http://groovyandroid.com/wp-content/uploads/2013/10/List-My-App-HTML-list.png">Screenshot</a>]</li>
-            <li>'Run' the 'List My Apps' -app with the new template by copying the app data to Clipboard [Copy] (since direct sharing may not work, if a lot of applications has been installed).
-                <ul>
-                    <li>There seems to be some kind of a limit, how much data the Android Clipboard can contain. With verbose templates ~200 apps might be the upper limit, but with a simple template, the Android Clipboard clearly is capable of containing considerably more app data.</li>
-                </ul>
-            </li>
-            <li>Open a HTML editor, such as <a href="https://play.google.com/store/apps/details?id=com.aor.droidedit">DroidEdit Free</a>.</li>
-            <li>Paste the app data (source code generated by 'List My Apps' in Step 5) from Clipboard to the HTML editor.
-                <ul>
-                    <li>If nothing happens (no data is copied to a HTML editor), try selecting fewer apps in 'List My Apps' and go back to Step 5.</li>
-                    <li>If "old data" gets copied to a HTML editor (i.e. "the data that was in the Clipboard before 'List My Apps' apps' 'Copy to Clipboard' -button was clicked"), try selecting fewer apps in 'List My Apps' and go back to Step 5.</li>
-                </ul>
-            </li>
-            <li>Save the file as a HTML file, for example as 'Installed_Apps.html', for example in 'Home/Documents' folder (a filename without any spaces is recommended).</li>
-            <li>Open the HTML file with an appropriate app, such as a browser by surfing directly to the file location, which could, for instance, be: <a href="file:///storage/emulated/0/Documents/Installed_Apps.html">file:///storage/emulated/0/Documents/Installed_Apps.html</a>
-                <ul>
-                    <li>In a browser the spaces in the filename can be replaced with %20 to make the link work. For more exotic filename characters, see <a href="http://www.w3schools.com/tags/ref_urlencode.asp">HTML URL Encoding Reference</a>.</li>
-                </ul>
-            </li>
-            <li>Conversion from HTML to PDF might work with <a href="https://play.google.com/store/apps/details?id=org.mozilla.firefox">Firefox (for Android)</a> (Options (three dots) → Page → Save as PDF) or perhaps with the printing option in the default Android File Manager.
-            </li>
+                </p>
+                <p>
+                    <li>After saving the template go back to the 'List My Apps' -app's home screen and select the name that was created in Step 2 from the 'Copy/Share as:' -dropdown menu. Please also select the apps that you'd like to be included in the list. [<a href="http://groovyandroid.com/wp-content/uploads/2013/10/List-My-App-HTML-list.png">Screenshot</a>]</li>
+                </p>
+                <p>
+                    <li>'Run' the 'List My Apps' -app with the new template by copying the app data to Clipboard [Copy] (since direct sharing may not work, if a lot of applications has been installed).
+                        <ul>
+                            <li>There seems to be some kind of a limit, how much data the Android Clipboard can contain. With verbose templates ~200 apps might be the upper limit, but with a simple template, the Android Clipboard clearly is capable of containing considerably more app data.</li>
+                        </ul>
+                    </li>
+                </p>
+                <p>
+                    <li>Open a HTML editor, such as <a href="https://play.google.com/store/apps/details?id=com.aor.droidedit">DroidEdit Free</a>.</li>
+                </p>
+                <p>
+                    <li>Paste the app data (source code generated by 'List My Apps' in Step 5) from Clipboard to the HTML editor.
+                        <ul>
+                            <li>If nothing happens (no data is pasted to a HTML editor after a few seconds), try selecting fewer apps in 'List My Apps' and go back to Step 5.</li>
+                                <ul>
+                                    <li>Depending on the device some lagging may occur when trying to paste, say ~10000 lines of code.</li>
+                                </ul>
+                            <li>If "old data" gets pasted to a HTML editor (i.e. "the data that was in the Clipboard before List My Apps' 'Copy to Clipboard' -button was clicked"), try selecting fewer apps in 'List My Apps' and go back to Step 5.</li>
+                        </ul>
+                    </li>
+                </p>
+                <p>
+                    <li>Save the file as a HTML file, for example as 'Installed_Apps.html', for example in 'Home/Documents' folder (a filename without any spaces is recommended).</li>
+                </p>
+                <p>
+                    <li>Open the HTML-file with an appropriate app, such as a browser by surfing directly to the file location, which could, for instance, be: <a href="file:///storage/emulated/0/Documents/Installed_Apps.html">file:///storage/emulated/0/Documents/Installed_Apps.html</a>
+                        <ul>
+                            <li>In a browser the spaces in the filename can be replaced with %20 to make the link work. For more exotic filename characters, see <a href="http://www.w3schools.com/tags/ref_urlencode.asp">HTML URL Encoding Reference</a>.</li>
+                        </ul>
+                    </li>
+                </p>
+                <p>
+                    <li>Conversion from HTML to PDF might work with <a href="https://play.google.com/store/apps/details?id=org.mozilla.firefox">Firefox (for Android)</a> (Options (three dots) → Page → Save as PDF) or perhaps with the printing option in the default Android File Manager.</li>
+                </p>
         </ol>
     </div>
 
     <!-- End Instructions (INSTRUCTIONS), can be selected over when pasting -->
 
-     <div style="margin-left: 3em"><br>
+     <div style="margin-left: 3em"><br />
         <h4>www</h4>
         <ul>
             <li>Template: <a href="https://github.com/auberginehill/list-my-apps-template-list/">https://github.com/auberginehill/list-my-apps-template-list/</a></li>
@@ -271,7 +303,7 @@
             <li><a href="https://play.google.com/store/apps/details?id=jp.ne.shira.html.viewer">Local HTML Viewer</a></li>
             <li><a href="https://play.google.com/store/apps/details?id=org.mozilla.firefox">Firefox for Android</a></li>
         </ul>
-        <br>
+        <br />
         <h4>Related scripts</h4>
         <ul>
             <li>List My Apps Template - Table: <a href="https://github.com/auberginehill/list-my-apps-template-table">https://github.com/auberginehill/list-my-apps-template-table</a></li>
@@ -279,29 +311,30 @@
             <li>List My Apps Template - Data: <a href="https://github.com/auberginehill/list-my-apps-template-data">https://github.com/auberginehill/list-my-apps-template-data</a></li>
             <li>List My Apps Template - XML plain: <a href="https://github.com/auberginehill/list-my-apps-template-xml-plain">https://github.com/auberginehill/list-my-apps-template-xml-plain</a></li>
             <li>List My Apps Template - XML style: <a href="https://github.com/auberginehill/list-my-apps-template-xml-style">https://github.com/auberginehill/list-my-apps-template-xml-style</a></li>
+            <li>List My Apps Template - JSON: <a href="https://github.com/auberginehill/list-my-apps-template-json">https://github.com/auberginehill/list-my-apps-template-json</a></li>
         </ul>
     </div>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
 
     <!-- Start Template File Header (HEADER), can be selected over when pasting -->
 
     <label class="filter-type" for="filter"><strong>Template File Header:</strong></label>
     <div class="show_more">
-        <input type="checkbox" id="filter">
+        <input type="checkbox" id="filter_1" />
         <pre>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 
 &lt;head&gt;
-    &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=utf-8&quot;&gt;
-    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=0.7&quot;&gt;
-    &lt;meta name=&quot;Keywords&quot; content=&quot;apps,applications,Android,HTML,Web development,tutorials,programming,training,learning,examples,source code,colors,demos,tips,template,templates&quot;&gt;
-    &lt;meta name=&quot;Description&quot; content=&quot;A List of Installed Applications&quot;&gt;
+    &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=utf-8&quot; /&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=0.7&quot; /&gt;
+    &lt;meta name=&quot;Keywords&quot; content=&quot;apps,applications,Android,HTML,Web development,tutorials,programming,training,learning,examples,source code,colors,demos,tips,template,templates&quot; /&gt;
+    &lt;meta name=&quot;Description&quot; content=&quot;A List of Installed Applications&quot; /&gt;
     &lt;title&gt;The Enumeration Page of Installed Applications&lt;/title&gt;
 
     &lt;style&gt;
@@ -418,7 +451,7 @@
 
     <label class="filter-type" for="filter"><strong>Template Body:</strong></label>
     <div class="show_more">
-        <input type="checkbox" id="filter">
+        <input type="checkbox" id="filter_2" />
         <pre>
         &lt;li&gt;&lt;strong&gt;${displayname}&lt;/strong&gt;
             &lt;ul&gt;
@@ -427,26 +460,28 @@
                 &lt;li&gt;First Installed: ${firstinstalled}&lt;/li&gt;
                 &lt;li&gt;Last Updated: ${lastupdated}&lt;/li&gt;
                 &lt;li&gt;Market ID: ${marketid}&lt;/li&gt;
-                &lt;li&gt;Market Link: &lt;br&gt;
-                    market://details?id=${packagename}&lt;/li&gt;
+                &lt;li&gt;Market Link: &lt;br /&gt;
+                    &lt;a href=&quot;market://details?id=${packagename}&quot;&gt;market://details?id=${packagename}&lt;/a&gt;&lt;/li&gt;
                 &lt;li&gt;Package Name: ${packagename}&lt;/li&gt;
                 &lt;li&gt;Tags: ${tags}&lt;/li&gt;
                 &lt;li&gt;Target SDK: ${targetsdk}&lt;/li&gt;
                 &lt;li&gt;UID: ${uid}&lt;/li&gt;
                 &lt;li&gt;Version: ${version}&lt;/li&gt;
                 &lt;li&gt;Version Code: ${versioncode}&lt;/li&gt;
-                &lt;li&gt;www: &lt;br&gt; 
+                &lt;li&gt;www: &lt;br /&gt; 
                     &lt;a href=&quot;${source}&quot;&gt;${source}&lt;/a&gt;&lt;/li&gt;
-                &lt;li&gt;Google Store:&lt;br&gt;
+                &lt;li&gt;Google Store:&lt;br /&gt;
                     &lt;a href=&quot;https://play.google.com/store/apps/details?id=${packagename}&quot;&gt;https://play.google.com/store/apps/details?id=${packagename}&lt;/a&gt;&lt;/li&gt;
-                &lt;li&gt;Search (Google): &lt;br&gt;
+                &lt;li&gt;F-Droid:&lt;br /&gt;
+                    &lt;a href=&quot;https://f-droid.org/repository/browse/?fdid=${packagename}&quot;&gt;https://f-droid.org/repository/browse/?fdid=${packagename}&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;Search (Google): &lt;br /&gt;
                     &lt;a href=&quot;https://www.google.com/search?q=${packagename}&quot;&gt;https://www.google.com/search?q=${packagename}&lt;/a&gt;&lt;/li&gt;
-                &lt;li&gt;DuckDuckGo: &lt;br&gt;
+                &lt;li&gt;DuckDuckGo: &lt;br /&gt;
                     &lt;a href=&quot;https://duckduckgo.com/?q=${packagename}+%22${displayname}%22&quot;&gt;https://duckduckgo.com/?q=${packagename}+&quot;${displayname}&quot;&lt;/a&gt;&lt;/li&gt;
             &lt;/ul&gt;
             &lt;div class=&quot;right_pane&quot;&gt;&lt;a href=&quot;#bottom&quot;&gt;&#x2193; Bottom &#x2193;&lt;/a&gt;&#x2003;&#x2002;|&#x2002;&#x2003;&lt;a href=&quot;#top&quot;&gt;&#x2191; Top &#x2191;&lt;/a&gt;&lt;/div&gt;
             &lt;div style=&quot;margin-top:4em; margin-bottom:9em&quot;&gt;
-                &lt;hr style=&quot;width:50%; text-align:left; margin-left:0&quot;&gt;
+                &lt;hr style=&quot;width:50%; text-align:left; margin-left:0&quot; /&gt;
             &lt;/div&gt;
         &lt;/li&gt;
         </pre>
@@ -458,65 +493,95 @@
 
     <label class="filter-type" for="filter"><strong>Template File Footer:</strong></label>
     <div class="show_more">
-        <input type="checkbox" id="filter">
+        <input type="checkbox" id="filter_3" />
         <pre>
     &lt;/ol&gt;
     &lt;div style=&quot;margin-left:1em&quot;&gt;
         &lt;h3&gt;'List My Apps' -Template (List)&lt;/h3&gt;
-        &lt;br&gt;
+        &lt;br /&gt;
         &lt;p&gt;To open this code with an Android device, for instance:&lt;/p&gt;
         &lt;ol&gt;
-            &lt;li&gt;Create a new template in '&lt;a href=&quot;https://play.google.com/store/apps/details?id=de.onyxbits.listmyapps&quot;&gt;List My Apps&lt;/a&gt;' -app's Template Editor by clicking Options (three dots) &#x2192; Template Editor &#x2192; Add. [&lt;a href=&quot;http://groovyandroid.com/wp-content/uploads/2013/10/List-My-Apps-select-all.png&quot;&gt;Screenshot&lt;/a&gt;]&lt;/li&gt;
-            &lt;li&gt;Type in a name for the template. [&lt;a href=&quot;http://groovyandroid.com/wp-content/uploads/2013/10/List-My-Apps-Template-Editor.png&quot;&gt;Screenshot&lt;/a&gt;]&lt;/li&gt;
-            &lt;li&gt;Paste all the appropriate template data to 'List My Apps' and save the template. The most convenient template source is a separate file (such as &lt;a href=&quot;https://github.com/auberginehill/list-my-apps-template-list&quot;&gt;https://github.com/auberginehill/list-my-apps-template-list&lt;/a&gt;), but a fairly working version of the template (without the template that would reside inside the template footer) can be found at the end of this file.
-                &lt;ul&gt;
-                    &lt;li&gt;The template code below is in three parts as described below:
-                           &lt;table style=&quot;border:0; margin-left:3em; margin-top:2em; margin-bottom:2em; text-align:left&quot;&gt;
-                               &lt;tr&gt;
-                                   &lt;th style=&quot;padding:12px&quot;&gt;Template File Header:&lt;/th&gt;
-                                   &lt;td style=&quot;padding:12px&quot;&gt;&quot;List header, may be blank&quot;&lt;/td&gt;
-                                &lt;/tr&gt;
-                                &lt;tr&gt;
-                                    &lt;th style=&quot;padding:12px&quot;&gt;Template Body:&lt;/th&gt;
-                                    &lt;td style=&quot;padding:12px&quot;&gt;&quot;Item format, may not be blank&quot;&lt;/td&gt;
-                                &lt;/tr&gt;
-                                &lt;tr&gt; 
-                                    &lt;th style=&quot;padding:12px&quot;&gt;Template File Footer:&lt;/th&gt;
-                                    &lt;td style=&quot;padding:12px&quot;&gt;&quot;List footer, may be blank&quot;&lt;/td&gt;
-                                &lt;/tr&gt;
-                            &lt;/table&gt;
+                &lt;p&gt;
+                    &lt;li&gt;Create a new template in '&lt;a href=&quot;https://play.google.com/store/apps/details?id=de.onyxbits.listmyapps&quot;&gt;List My Apps&lt;/a&gt;' -app's Template Editor by clicking Options (three dots) &#x2192; Template Editor &#x2192; Add. [&lt;a href=&quot;http://groovyandroid.com/wp-content/uploads/2013/10/List-My-Apps-select-all.png&quot;&gt;Screenshot&lt;/a&gt;]&lt;/li&gt;
+                &lt;/p&gt;
+                &lt;p&gt;
+                    &lt;li&gt;Type in a name for the template. [&lt;a href=&quot;http://groovyandroid.com/wp-content/uploads/2013/10/List-My-Apps-Template-Editor.png&quot;&gt;Screenshot&lt;/a&gt;]&lt;/li&gt;
+                &lt;/p&gt;
+                &lt;p&gt;
+                    &lt;li&gt;Paste all the appropriate template data to 'List My Apps' and save the template. The most convenient template source is a separate file (such as &lt;a href=&quot;https://github.com/auberginehill/list-my-apps-template-list&quot;&gt;https://github.com/auberginehill/list-my-apps-template-list&lt;/a&gt;),
+                        but a fairly working version of the template (without the template that would reside inside the template footer) can be found at the end of this file.
+                        &lt;ul&gt;
+                            &lt;p&gt;
+                                &lt;li&gt;The template code below is in three parts as described below:
+                                    &lt;table style=&quot;border:0; margin-left:3em; margin-top:2em; margin-bottom:2em; text-align:left&quot;&gt;
+                                        &lt;tr&gt;
+                                            &lt;th style=&quot;padding:12px&quot;&gt;Template File Header:&lt;/th&gt;
+                                            &lt;td style=&quot;padding:12px&quot;&gt;&quot;List header, may be blank&quot;&lt;/td&gt;
+                                        &lt;/tr&gt;
+                                        &lt;tr&gt;
+                                            &lt;th style=&quot;padding:12px&quot;&gt;Template Body:&lt;/th&gt;
+                                            &lt;td style=&quot;padding:12px&quot;&gt;&quot;Item format, may not be blank&quot;&lt;/td&gt;
+                                        &lt;/tr&gt;
+                                        &lt;tr&gt;
+                                            &lt;th style=&quot;padding:12px&quot;&gt;Template File Footer:&lt;/th&gt;
+                                            &lt;td style=&quot;padding:12px&quot;&gt;&quot;List footer, may be blank&quot;&lt;/td&gt;
+                                        &lt;/tr&gt;
+                                    &lt;/table&gt;
+                                &lt;/li&gt;
+                            &lt;/p&gt;
+                            &lt;p&gt;
+                                &lt;li&gt;The footer section (under the header 'Template File Footer:') includes only a truncated version of the real footer section, which was used to create the underlying HTML-page.&lt;/li&gt;
+                            &lt;/p&gt;
+                            &lt;p&gt;
+                                &lt;li&gt;In the header and footer sections of the template (under 'Template File Header:' and 'Template File Footer:' -headers below) every instance of [dollar_sign] has to be replaced with a single $ character (to repair the timestamp and count
+                                    -variables to their correct form).&lt;/li&gt;
+                            &lt;/p&gt;
+                        &lt;/ul&gt;
                     &lt;/li&gt;
-                    &lt;li&gt;The footer section (under the header 'Template File Footer:') includes only a truncated version of the real footer section, which was used to create the underlying HTML-page.&lt;/li&gt;
-                    &lt;li&gt;In the header and footer sections of the template (under 'Template File Header:' and 'Template File Footer:' -headers below) every instance of [dollar_sign] has to be replaced with a single $ character (to repair the timestamp and count -variables to their correct form).&lt;/li&gt;
-                &lt;/ul&gt;
-            &lt;/li&gt;
-            &lt;li&gt;Go back to the 'List My Apps' -app's home screen and select the name that was created in Step 2 from the 'Copy/Share as:' -dropdown menu. Please also select the apps that you'd like to be included in the list. [&lt;a href=&quot;http://groovyandroid.com/wp-content/uploads/2013/10/List-My-App-HTML-list.png&quot;&gt;Screenshot&lt;/a&gt;]&lt;/li&gt;
-            &lt;li&gt;'Run' the 'List My Apps' -app with the new template by copying the app data to Clipboard [Copy] (since direct sharing may not work, if a lot of applications has been installed).
-                &lt;ul&gt;
-                    &lt;li&gt;There seems to be some kind of a limit, how much data the Android Clipboard can contain. With verbose templates ~200 apps might be the upper limit, but with a simple template, the Android Clipboard clearly is capable of containing considerably more app data.&lt;/li&gt;
-                &lt;/ul&gt;
-            &lt;/li&gt;
-            &lt;li&gt;Open a HTML editor, such as &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.aor.droidedit&quot;&gt;DroidEdit Free&lt;/a&gt;.&lt;/li&gt;
-            &lt;li&gt;Paste the app data (source code generated by 'List My Apps' in Step 5) from Clipboard to the HTML editor.
-                &lt;ul&gt;
-                    &lt;li&gt;If nothing happens (no data is copied to a HTML editor), try selecting fewer apps in 'List My Apps' and go back to Step 5.&lt;/li&gt;
-                    &lt;li&gt;If &quot;old data&quot; gets copied to a HTML editor (i.e. &quot;the data that was in the Clipboard before 'List My Apps' apps' 'Copy to Clipboard' -button was clicked&quot;), try selecting fewer apps in 'List My Apps' and go back to Step 5.&lt;/li&gt;
-                &lt;/ul&gt;
-            &lt;/li&gt;
-            &lt;li&gt;Save the file as a HTML file, for example as 'Installed_Apps.html', for example in 'Home/Documents' folder (a filename without any spaces is recommended).&lt;/li&gt;
-            &lt;li&gt;Open the HTML file with an appropriate app, such as a browser by surfing directly to the file location, which could, for instance, be: &lt;a href=&quot;file:///storage/emulated/0/Documents/Installed_Apps.html&quot;&gt;file:///storage/emulated/0/Documents/Installed_Apps.html&lt;/a&gt;
-                &lt;ul&gt;
-                    &lt;li&gt;In a browser the spaces in the filename can be replaced with %20 to make the link work. For more exotic filename characters, see &lt;a href=&quot;http://www.w3schools.com/tags/ref_urlencode.asp&quot;&gt;HTML URL Encoding Reference&lt;/a&gt;.&lt;/li&gt;
-                &lt;/ul&gt;
-            &lt;/li&gt;
-            &lt;li&gt;Conversion from HTML to PDF might work with &lt;a href=&quot;https://play.google.com/store/apps/details?id=org.mozilla.firefox&quot;&gt;Firefox (for Android)&lt;/a&gt; (Options (three dots) &#x2192; Page &#x2192; Save as PDF) or perhaps with the printing option in the default Android File Manager.
-            &lt;/li&gt;
+                &lt;/p&gt;
+                &lt;p&gt;
+                    &lt;li&gt;After saving the template go back to the 'List My Apps' -app's home screen and select the name that was created in Step 2 from the 'Copy/Share as:' -dropdown menu. Please also select the apps that you'd like to be included in the list. [&lt;a href=&quot;http://groovyandroid.com/wp-content/uploads/2013/10/List-My-App-HTML-list.png&quot;&gt;Screenshot&lt;/a&gt;]&lt;/li&gt;
+                &lt;/p&gt;
+                &lt;p&gt;
+                    &lt;li&gt;'Run' the 'List My Apps' -app with the new template by copying the app data to Clipboard [Copy] (since direct sharing may not work, if a lot of applications has been installed).
+                        &lt;ul&gt;
+                            &lt;li&gt;There seems to be some kind of a limit, how much data the Android Clipboard can contain. With verbose templates ~200 apps might be the upper limit, but with a simple template, the Android Clipboard clearly is capable of containing considerably more app data.&lt;/li&gt;
+                        &lt;/ul&gt;
+                    &lt;/li&gt;
+                &lt;/p&gt;
+                &lt;p&gt;
+                    &lt;li&gt;Open a HTML editor, such as &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.aor.droidedit&quot;&gt;DroidEdit Free&lt;/a&gt;.&lt;/li&gt;
+                &lt;/p&gt;
+                &lt;p&gt;
+                    &lt;li&gt;Paste the app data (source code generated by 'List My Apps' in Step 5) from Clipboard to the HTML editor.
+                        &lt;ul&gt;
+                            &lt;li&gt;If nothing happens (no data is pasted to a HTML editor after a few seconds), try selecting fewer apps in 'List My Apps' and go back to Step 5.&lt;/li&gt;
+                                &lt;ul&gt;
+                                    &lt;li&gt;Depending on the device some lagging may occur when trying to paste, say ~10000 lines of code.&lt;/li&gt;
+                                &lt;/ul&gt;
+                            &lt;li&gt;If &quot;old data&quot; gets pasted to a HTML editor (i.e. &quot;the data that was in the Clipboard before List My Apps' 'Copy to Clipboard' -button was clicked&quot;), try selecting fewer apps in 'List My Apps' and go back to Step 5.&lt;/li&gt;
+                        &lt;/ul&gt;
+                    &lt;/li&gt;
+                &lt;/p&gt;
+                &lt;p&gt;
+                    &lt;li&gt;Save the file as a HTML file, for example as 'Installed_Apps.html', for example in 'Home/Documents' folder (a filename without any spaces is recommended).&lt;/li&gt;
+                &lt;/p&gt;
+                &lt;p&gt;
+                    &lt;li&gt;Open the HTML-file with an appropriate app, such as a browser by surfing directly to the file location, which could, for instance, be: &lt;a href=&quot;file:///storage/emulated/0/Documents/Installed_Apps.html&quot;&gt;file:///storage/emulated/0/Documents/Installed_Apps.html&lt;/a&gt;
+                        &lt;ul&gt;
+                            &lt;li&gt;In a browser the spaces in the filename can be replaced with %20 to make the link work. For more exotic filename characters, see &lt;a href=&quot;http://www.w3schools.com/tags/ref_urlencode.asp&quot;&gt;HTML URL Encoding Reference&lt;/a&gt;.&lt;/li&gt;
+                        &lt;/ul&gt;
+                    &lt;/li&gt;
+                &lt;/p&gt;
+                &lt;p&gt;
+                    &lt;li&gt;Conversion from HTML to PDF might work with &lt;a href=&quot;https://play.google.com/store/apps/details?id=org.mozilla.firefox&quot;&gt;Firefox (for Android)&lt;/a&gt; (Options (three dots) &#x2192; Page &#x2192; Save as PDF) or perhaps with the printing option in the default Android File Manager.&lt;/li&gt;
+                &lt;/p&gt;
         &lt;/ol&gt;
     &lt;/div&gt;
 
     &lt;!-- End Instructions (INSTRUCTIONS), can be selected over when pasting --&gt;
 
-     &lt;div style=&quot;margin-left: 3em&quot;&gt;&lt;br&gt;
+     &lt;div style=&quot;margin-left: 3em&quot;&gt;&lt;br /&gt;
         &lt;h4&gt;www&lt;/h4&gt;
         &lt;ul&gt;
             &lt;li&gt;Template: &lt;a href=&quot;https://github.com/auberginehill/list-my-apps-template-list/&quot;&gt;https://github.com/auberginehill/list-my-apps-template-list/&lt;/a&gt;&lt;/li&gt;
@@ -527,7 +592,7 @@
             &lt;li&gt;&lt;a href=&quot;https://play.google.com/store/apps/details?id=jp.ne.shira.html.viewer&quot;&gt;Local HTML Viewer&lt;/a&gt;&lt;/li&gt;
             &lt;li&gt;&lt;a href=&quot;https://play.google.com/store/apps/details?id=org.mozilla.firefox&quot;&gt;Firefox for Android&lt;/a&gt;&lt;/li&gt;
         &lt;/ul&gt;
-        &lt;br&gt;
+        &lt;br /&gt;
         &lt;h4&gt;Related scripts&lt;/h4&gt;
         &lt;ul&gt;
             &lt;li&gt;List My Apps Template - Table: &lt;a href=&quot;https://github.com/auberginehill/list-my-apps-template-table&quot;&gt;https://github.com/auberginehill/list-my-apps-template-table&lt;/a&gt;&lt;/li&gt;
@@ -535,17 +600,18 @@
             &lt;li&gt;List My Apps Template - Data: &lt;a href=&quot;https://github.com/auberginehill/list-my-apps-template-data&quot;&gt;https://github.com/auberginehill/list-my-apps-template-data&lt;/a&gt;&lt;/li&gt;
             &lt;li&gt;List My Apps Template - XML plain: &lt;a href=&quot;https://github.com/auberginehill/list-my-apps-template-xml-plain&quot;&gt;https://github.com/auberginehill/list-my-apps-template-xml-plain&lt;/a&gt;&lt;/li&gt;
             &lt;li&gt;List My Apps Template - XML style: &lt;a href=&quot;https://github.com/auberginehill/list-my-apps-template-xml-style&quot;&gt;https://github.com/auberginehill/list-my-apps-template-xml-style&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;List My Apps Template - JSON: &lt;a href=&quot;https://github.com/auberginehill/list-my-apps-template-json&quot;&gt;https://github.com/auberginehill/list-my-apps-template-json&lt;/a&gt;&lt;/li&gt;
         &lt;/ul&gt;
     &lt;/div&gt;
-    &lt;br&gt;
-    &lt;br&gt;
-    &lt;br&gt;
-    &lt;br&gt;
-    &lt;br&gt;
-    &lt;br&gt;
-    &lt;br&gt;
-    &lt;br&gt;
-    &lt;br&gt;
+    &lt;br /&gt;
+    &lt;br /&gt;
+    &lt;br /&gt;
+    &lt;br /&gt;
+    &lt;br /&gt;
+    &lt;br /&gt;
+    &lt;br /&gt;
+    &lt;br /&gt;
+    &lt;br /&gt;
     &lt;p class=&quot;right_pane_footer&quot;&gt;&lt;a href=&quot;#top&quot;&gt;&#x2191; Top &#x2191;&lt;/a&gt;&lt;/p&gt;
     &lt;p&gt;[End of Line]&lt;/p&gt;
     &lt;table id=&quot;bottom&quot; class=&quot;stats&quot;&gt;
@@ -568,9 +634,9 @@
 
     <!-- End Template File Footer (FOOTER), can be selected over when pasting -->
 
-    <br>
-    <br>
-    <br>
+    <br />
+    <br />
+    <br />
     <p class="right_pane_footer"><a href="#top">↑ Top ↑</a></p>
     <p>[End of Line]</p>
     <table id="bottom" class="stats">
