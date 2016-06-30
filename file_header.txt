@@ -2,10 +2,10 @@
 <html>
 
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=0.7">
-    <meta name="Keywords" content="apps,applications,Android,HTML,Web development,tutorials,programming,training,learning,examples,source code,colors,demos,tips,template,templates">
-    <meta name="Description" content="A List of Installed Applications">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=0.7" />
+    <meta name="Keywords" content="apps,applications,Android,HTML,Web development,tutorials,programming,training,learning,examples,source code,colors,demos,tips,template,templates" />
+    <meta name="Description" content="A List of Installed Applications" />
     <title>The Enumeration Page of Installed Applications</title>
 
     <style>
@@ -112,4 +112,4 @@
     </table>
     <p class="right_pane_footer"><a href="#bottom">↓ Bottom ↓</a></p>
     <p>To see the code in action, a real-time Online HTML Editor can be found at: <a href="http://htmledit.squarefree.com/">http://htmledit.squarefree.com/</a></p>
-<ol style="margin-top:6em; margin-bottom:4em">
+    <ol style="margin-top:6em; margin-bottom:4em">
